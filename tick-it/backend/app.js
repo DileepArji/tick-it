@@ -17,7 +17,7 @@ app.use("/admin",adminRouter);//this route ("/admin") will be followed by adminR
 app.use("/movie",movieRouter);
 app.use("/booking",bookingsRouter);
 app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+    res.setHeader('Access-Control-Allow-Origin', 'https://tick-it-movies.onrender.com');
     // You can set other CORS headers as needed, such as methods and headers.
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
