@@ -7,7 +7,7 @@ import adminRouter from "./routes/admin-routes.js";
 import movieRouter from "./routes/movie-routes.js";
 import bookingsRouter from "./routes/booking-routes.js";
 import cors from "cors";//it helps to exchange data between 5000 and 3000
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'https://tick-it-movies.onrender.com' }));
 dotenv.config();
 
 //middlewares
