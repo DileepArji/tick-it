@@ -1,7 +1,7 @@
-import Bookings from "../models/Bookings";
-import User from "../models/User";
+import Bookings from "../models/Bookings.js";
+import User from "../models/User.js";
 import bcrypt from "bcrypt";
-import { getBookingById2 } from "./booking-controller";
+import { getBookingById2 } from "./booking-controller.js";
 // import { getBookingById2 } from "./booking-controller";
 export const getAllUsers= async(req,res,next)=>{
     let users;
