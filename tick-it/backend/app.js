@@ -2,10 +2,10 @@ import express  from "express";
 const app=express();
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import userRouter from "./routes/User-routes";
-import adminRouter from "./routes/admin-routes";
-import movieRouter from "./routes/movie-routes";
-import bookingsRouter from "./routes/booking-routes";
+import userRouter from "./routes/User-routes.js";
+import adminRouter from "./routes/admin-routes.js";
+import movieRouter from "./routes/movie-routes.js";
+import bookingsRouter from "./routes/booking-routes.js";
 import cors from "cors";//it helps to exchange data between 5000 and 3000
 app.use(cors({ origin: 'http://localhost:3000' }));
 dotenv.config();
