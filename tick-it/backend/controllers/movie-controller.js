@@ -1,8 +1,8 @@
 import jwt  from "jsonwebtoken";
-import Movie from "../models/Movie";
+import Movie from "../models/Movie.js";
 import mongoose from "mongoose";
 import { AdUnits } from "@mui/icons-material";
-import Admin from "../models/Admin";
+import Admin from "../models/Admin.js";
 
 
 export const addMovie=async(req,res,next)=>{

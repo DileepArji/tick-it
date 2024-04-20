@@ -1,7 +1,7 @@
-import Movie  from "../models/Movie";
+import Movie  from "../models/Movie.js";
 import mongoose from "mongoose";
-import Bookings from "../models/Bookings";
-import User from "../models/User";
+import Bookings from "../models/Bookings.js";
+import User from "../models/User.js";
 import { startSession } from "mongoose";
 
 export const newBooking=async(req,res,next)=>{
